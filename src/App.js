@@ -8,6 +8,7 @@ import {
   SkillGroupDataType,
 } from "beautiful-skill-tree";
 import { dataEngineer, dataScientist, dataViz, dataBIDev } from "./data.js";
+import theme from "./theme.js";
 
 //const data = dataEngineer;
 
@@ -16,18 +17,18 @@ function App() {
     <div className="bg">
       <div className="App">
         <SkillProvider>
-          <SkillTreeGroup>
+          <SkillTreeGroup theme={theme}>
             {({ skillCount }) => (
               <SkillTree
                 treeId="first-tree"
                 title="Data Engineer"
                 data={dataEngineer}
                 collapsible
-                description="My first skill tree"
+                description="Data engineers work in a variety of settings to build systems that collect, manage, and convert raw data into usable information for data scientists and business analysts to interpret."
               />
             )}
           </SkillTreeGroup>
-          <SkillTreeGroup>
+          <SkillTreeGroup theme={theme}>
             {({ skillCount }) => (
               <SkillTree
                 treeId="second-tree"
@@ -38,7 +39,7 @@ function App() {
               />
             )}
           </SkillTreeGroup>
-          <SkillTreeGroup>
+          <SkillTreeGroup theme={theme}>
             {({ skillCount }) => (
               <SkillTree
                 treeId="third-tree"
@@ -49,7 +50,7 @@ function App() {
               />
             )}
           </SkillTreeGroup>
-          <SkillTreeGroup>
+          <SkillTreeGroup theme={theme}>
             {({ skillCount }) => (
               <SkillTree
                 treeId="fourth-tree"

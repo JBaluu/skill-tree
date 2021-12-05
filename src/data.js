@@ -16,35 +16,46 @@ export const dataEngineer = [
     id: "ward",
     icon: etlIcon,
     title: "ETL",
-    tooltip: "Improves your shield capacity and shield recharge delay.",
+    tooltip: {
+      content:
+        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+    },
     children: [
       {
-        id: "suspension",
+        id: "Data Warehouse",
         icon: dwhIcon,
-        title: "Suspension",
-        tooltip: "Increases the duration of Phaselock.",
+        title: "Data Warehouse",
+        tooltip: {
+          content:
+            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+        },
         children: [
           {
-            id: "fleet",
+            id: "SQL",
             icon: sqlIcon,
-            //optional: true,
-            title: "Fleet",
-            tooltip:
-              "Your movement speed increases while your shields are depleted.",
+            title: "SQL",
+            tooltip: {
+              content:
+                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+            },
             children: [
               {
-                id: "converge",
+                id: "Data Preparation",
                 icon: prepIcon,
-                title: "Converge",
-                tooltip:
-                  "Your Phaselock ability now also pulls nearby enemies to the original target. This deals a small amount of damage to affected enemies.",
+                title: "Data Preparation",
+                tooltip: {
+                  content:
+                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                },
                 children: [
                   {
-                    id: "quicken",
+                    id: "Data Replication",
                     icon: repliIcon,
-                    title: "Quicken",
-                    tooltip:
-                      "Increases the cooldown rate of your phaselock ability.",
+                    title: "Data Replication",
+                    tooltip: {
+                      content:
+                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                    },
                     children: [],
                   },
                 ],
@@ -52,9 +63,11 @@ export const dataEngineer = [
               {
                 id: "thoughlock",
                 icon: vizIcon,
-                title: "Thoughtlock",
-                tooltip:
-                  "Phaselock causes enemies to turn on their friends instead of being locked down. Additionally, Phaselock's duration is increased, but so is it's cooldown. ",
+                title: "Data Visualization",
+                tooltip: {
+                  content:
+                    "Data visualization is the graphical representation of information and data.",
+                },
                 children: [],
               },
             ],
@@ -66,29 +79,38 @@ export const dataEngineer = [
   {
     id: "accelerate",
     icon: deployIcon,
-    title: "Accelerate",
-    tooltip: "Increases damage and bullet speed with all weapon types.",
+    title: "Deployment automatization",
+    tooltip: {
+      content:
+        "Deployment automation is what enables you to deploy your software to testing and production environments with the push of a button.",
+    },
     children: [
       {
         id: "kinetic-reflection",
         icon: linuxIcon,
-        title: "Kinetic Reflection",
-        tooltip:
-          "After killing an enemy, you gain the ability to deflect enemy bullets, sending them flying toward nearby enemies. You take reduced damage from reflective bullets. Kinetic Reflection only works with bullets. This effect lasts for a short time.",
+        title: "Linux",
+        tooltip: {
+          content:
+            "A Linux-based system is a modular Unix-like operating system, deriving much of its basic design from principles established in Unix.",
+        },
         children: [
           {
             id: "intertia",
             icon: programmingIcon,
-            title: "Intertia",
-            tooltip:
-              "Killing an enemy causes your shields to quickly regenerate and increases your reload speed for a few seconds.",
+            title: "Programming",
+            tooltip: {
+              content:
+                "Programming is the process of creating a set of instructions that tell a computer how to perform a task.",
+            },
             children: [
               {
                 id: "subsequence",
                 icon: cloudIcon,
-                title: "Subsequence",
-                tooltip:
-                  "When an enemy under the effects of your Phaselock dies there is a chance for your Phaselock ability to seek out and affect another target. ",
+                title: "Cloud",
+                tooltip: {
+                  content:
+                    "The cloud is made up of servers in data centers all over the world.",
+                },
                 children: [],
               },
             ],
@@ -104,35 +126,46 @@ export const dataScientist = [
     id: "ward",
     icon: etlIcon,
     title: "ETL",
-    tooltip: "Improves your shield capacity and shield recharge delay.",
+    tooltip: {
+      content:
+        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+    },
     children: [
       {
-        id: "suspension",
+        id: "Data Warehouse",
         icon: dwhIcon,
-        title: "Suspension",
-        tooltip: "Increases the duration of Phaselock.",
+        title: "Data Warehouse",
+        tooltip: {
+          content:
+            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+        },
         children: [
           {
-            id: "fleet",
+            id: "SQL",
             icon: sqlIcon,
-            //optional: true,
-            title: "Fleet",
-            tooltip:
-              "Your movement speed increases while your shields are depleted.",
+            title: "SQL",
+            tooltip: {
+              content:
+                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+            },
             children: [
               {
-                id: "converge",
+                id: "Data Preparation",
                 icon: prepIcon,
-                title: "Converge",
-                tooltip:
-                  "Your Phaselock ability now also pulls nearby enemies to the original target. This deals a small amount of damage to affected enemies.",
+                title: "Data Preparation",
+                tooltip: {
+                  content:
+                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                },
                 children: [
                   {
-                    id: "quicken",
+                    id: "Data Replication",
                     icon: repliIcon,
-                    title: "Quicken",
-                    tooltip:
-                      "Increases the cooldown rate of your phaselock ability.",
+                    title: "Data Replication",
+                    tooltip: {
+                      content:
+                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                    },
                     children: [],
                   },
                 ],
@@ -140,9 +173,11 @@ export const dataScientist = [
               {
                 id: "thoughlock",
                 icon: vizIcon,
-                title: "Thoughtlock",
-                tooltip:
-                  "Phaselock causes enemies to turn on their friends instead of being locked down. Additionally, Phaselock's duration is increased, but so is it's cooldown. ",
+                title: "Data Visualization",
+                tooltip: {
+                  content:
+                    "Data visualization is the graphical representation of information and data.",
+                },
                 children: [],
               },
             ],
@@ -154,29 +189,38 @@ export const dataScientist = [
   {
     id: "accelerate",
     icon: deployIcon,
-    title: "Accelerate",
-    tooltip: "Increases damage and bullet speed with all weapon types.",
+    title: "Deployment automatization",
+    tooltip: {
+      content:
+        "Deployment automation is what enables you to deploy your software to testing and production environments with the push of a button.",
+    },
     children: [
       {
         id: "kinetic-reflection",
         icon: linuxIcon,
-        title: "Kinetic Reflection",
-        tooltip:
-          "After killing an enemy, you gain the ability to deflect enemy bullets, sending them flying toward nearby enemies. You take reduced damage from reflective bullets. Kinetic Reflection only works with bullets. This effect lasts for a short time.",
+        title: "Linux",
+        tooltip: {
+          content:
+            "A Linux-based system is a modular Unix-like operating system, deriving much of its basic design from principles established in Unix.",
+        },
         children: [
           {
             id: "intertia",
             icon: programmingIcon,
-            title: "Intertia",
-            tooltip:
-              "Killing an enemy causes your shields to quickly regenerate and increases your reload speed for a few seconds.",
+            title: "Programming",
+            tooltip: {
+              content:
+                "Programming is the process of creating a set of instructions that tell a computer how to perform a task.",
+            },
             children: [
               {
                 id: "subsequence",
                 icon: cloudIcon,
-                title: "Subsequence",
-                tooltip:
-                  "When an enemy under the effects of your Phaselock dies there is a chance for your Phaselock ability to seek out and affect another target. ",
+                title: "Cloud",
+                tooltip: {
+                  content:
+                    "The cloud is made up of servers in data centers all over the world.",
+                },
                 children: [],
               },
             ],
@@ -192,35 +236,47 @@ export const dataViz = [
     id: "ward",
     icon: etlIcon,
     title: "ETL",
-    tooltip: "Improves your shield capacity and shield recharge delay.",
+    tooltip: {
+      content:
+        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+    },
     children: [
       {
-        id: "suspension",
+        id: "Data Warehouse",
         icon: dwhIcon,
-        title: "Suspension",
-        tooltip: "Increases the duration of Phaselock.",
+        title: "Data Warehouse",
+        tooltip: {
+          content:
+            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+        },
         children: [
           {
-            id: "fleet",
+            id: "SQL",
             icon: sqlIcon,
             //optional: true,
-            title: "Fleet",
-            tooltip:
-              "Your movement speed increases while your shields are depleted.",
+            title: "SQL",
+            tooltip: {
+              content:
+                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+            },
             children: [
               {
-                id: "converge",
+                id: "Data Preparation",
                 icon: prepIcon,
-                title: "Converge",
-                tooltip:
-                  "Your Phaselock ability now also pulls nearby enemies to the original target. This deals a small amount of damage to affected enemies.",
+                title: "Data Preparation",
+                tooltip: {
+                  content:
+                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                },
                 children: [
                   {
-                    id: "quicken",
+                    id: "Data Replication",
                     icon: repliIcon,
-                    title: "Quicken",
-                    tooltip:
-                      "Increases the cooldown rate of your phaselock ability.",
+                    title: "Data Replication",
+                    tooltip: {
+                      content:
+                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                    },
                     children: [],
                   },
                 ],
@@ -228,9 +284,11 @@ export const dataViz = [
               {
                 id: "thoughlock",
                 icon: vizIcon,
-                title: "Thoughtlock",
-                tooltip:
-                  "Phaselock causes enemies to turn on their friends instead of being locked down. Additionally, Phaselock's duration is increased, but so is it's cooldown. ",
+                title: "Data Visualization",
+                tooltip: {
+                  content:
+                    "Data visualization is the graphical representation of information and data.",
+                },
                 children: [],
               },
             ],
@@ -242,29 +300,38 @@ export const dataViz = [
   {
     id: "accelerate",
     icon: deployIcon,
-    title: "Accelerate",
-    tooltip: "Increases damage and bullet speed with all weapon types.",
+    title: "Deployment automatization",
+    tooltip: {
+      content:
+        "Deployment automation is what enables you to deploy your software to testing and production environments with the push of a button.",
+    },
     children: [
       {
         id: "kinetic-reflection",
         icon: linuxIcon,
-        title: "Kinetic Reflection",
-        tooltip:
-          "After killing an enemy, you gain the ability to deflect enemy bullets, sending them flying toward nearby enemies. You take reduced damage from reflective bullets. Kinetic Reflection only works with bullets. This effect lasts for a short time.",
+        title: "Linux",
+        tooltip: {
+          content:
+            "A Linux-based system is a modular Unix-like operating system, deriving much of its basic design from principles established in Unix.",
+        },
         children: [
           {
             id: "intertia",
             icon: programmingIcon,
-            title: "Intertia",
-            tooltip:
-              "Killing an enemy causes your shields to quickly regenerate and increases your reload speed for a few seconds.",
+            title: "Programming",
+            tooltip: {
+              content:
+                "Programming is the process of creating a set of instructions that tell a computer how to perform a task.",
+            },
             children: [
               {
                 id: "subsequence",
                 icon: cloudIcon,
-                title: "Subsequence",
-                tooltip:
-                  "When an enemy under the effects of your Phaselock dies there is a chance for your Phaselock ability to seek out and affect another target. ",
+                title: "Cloud",
+                tooltip: {
+                  content:
+                    "The cloud is made up of servers in data centers all over the world.",
+                },
                 children: [],
               },
             ],
@@ -280,35 +347,47 @@ export const dataBIDev = [
     id: "ward",
     icon: etlIcon,
     title: "ETL",
-    tooltip: "Improves your shield capacity and shield recharge delay.",
+    tooltip: {
+      content:
+        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+    },
     children: [
       {
-        id: "suspension",
+        id: "Data Warehouse",
         icon: dwhIcon,
-        title: "Suspension",
-        tooltip: "Increases the duration of Phaselock.",
+        title: "Data Warehouse",
+        tooltip: {
+          content:
+            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+        },
         children: [
           {
-            id: "fleet",
+            id: "SQL",
             icon: sqlIcon,
             //optional: true,
-            title: "Fleet",
-            tooltip:
-              "Your movement speed increases while your shields are depleted.",
+            title: "SQL",
+            tooltip: {
+              content:
+                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+            },
             children: [
               {
-                id: "converge",
+                id: "Data Preparation",
                 icon: prepIcon,
-                title: "Converge",
-                tooltip:
-                  "Your Phaselock ability now also pulls nearby enemies to the original target. This deals a small amount of damage to affected enemies.",
+                title: "Data Preparation",
+                tooltip: {
+                  content:
+                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                },
                 children: [
                   {
-                    id: "quicken",
+                    id: "Data Replication",
                     icon: repliIcon,
-                    title: "Quicken",
-                    tooltip:
-                      "Increases the cooldown rate of your phaselock ability.",
+                    title: "Data Replication",
+                    tooltip: {
+                      content:
+                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                    },
                     children: [],
                   },
                 ],
@@ -316,9 +395,11 @@ export const dataBIDev = [
               {
                 id: "thoughlock",
                 icon: vizIcon,
-                title: "Thoughtlock",
-                tooltip:
-                  "Phaselock causes enemies to turn on their friends instead of being locked down. Additionally, Phaselock's duration is increased, but so is it's cooldown. ",
+                title: "Data Visualization",
+                tooltip: {
+                  content:
+                    "Data visualization is the graphical representation of information and data.",
+                },
                 children: [],
               },
             ],
@@ -330,29 +411,38 @@ export const dataBIDev = [
   {
     id: "accelerate",
     icon: deployIcon,
-    title: "Accelerate",
-    tooltip: "Increases damage and bullet speed with all weapon types.",
+    title: "Deployment automatization",
+    tooltip: {
+      content:
+        "Deployment automation is what enables you to deploy your software to testing and production environments with the push of a button.",
+    },
     children: [
       {
         id: "kinetic-reflection",
         icon: linuxIcon,
-        title: "Kinetic Reflection",
-        tooltip:
-          "After killing an enemy, you gain the ability to deflect enemy bullets, sending them flying toward nearby enemies. You take reduced damage from reflective bullets. Kinetic Reflection only works with bullets. This effect lasts for a short time.",
+        title: "Linux",
+        tooltip: {
+          content:
+            "A Linux-based system is a modular Unix-like operating system, deriving much of its basic design from principles established in Unix.",
+        },
         children: [
           {
             id: "intertia",
             icon: programmingIcon,
-            title: "Intertia",
-            tooltip:
-              "Killing an enemy causes your shields to quickly regenerate and increases your reload speed for a few seconds.",
+            title: "Programming",
+            tooltip: {
+              content:
+                "Programming is the process of creating a set of instructions that tell a computer how to perform a task.",
+            },
             children: [
               {
                 id: "subsequence",
                 icon: cloudIcon,
-                title: "Subsequence",
-                tooltip:
-                  "When an enemy under the effects of your Phaselock dies there is a chance for your Phaselock ability to seek out and affect another target. ",
+                title: "Cloud",
+                tooltip: {
+                  content:
+                    "The cloud is made up of servers in data centers all over the world.",
+                },
                 children: [],
               },
             ],
