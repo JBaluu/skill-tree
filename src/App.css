@@ -1,13 +1,45 @@
 .bg {
-  background: url(pics/bg.jpg) repeat center center fixed;
+  background: url(pics/bg.jpg) repeat top left fixed;
   background-size: cover;
   height: 100vh;
 }
+.cards:nth-last-child(1) {
+  grid-column: 2;
+}
 
+.grid {
+  overflow-y: scroll;
+  /* max-width: 1200px; */
+  margin: 20em auto 2em auto;
+  height: 90vh;
+  width: 100vw;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1400px) {
+  .bg {
+    background: url(pics/bg.jpg) repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .App {
   align-items: center;
   display: flex;
   height: 100%;
   width: 100%;
+  overflow-y: hidden;
   justify-content: center;
+  align-items: center;
 }
