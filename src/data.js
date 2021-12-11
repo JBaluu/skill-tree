@@ -24,7 +24,7 @@ export const dataEngineer = [
     title: "ETL Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "An ETL novice has a basic understanding of data, data handling, relational datasets, as well as possesses basic programming skills and has experience with an ETL tool or PL/SQL",
     },
     children: [
       {
@@ -33,7 +33,7 @@ export const dataEngineer = [
         title: "ETL Intermediate",
         tooltip: {
           content:
-            "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+            "An ETL intermediate can design low complexity data flows or medium complexity ones based on a specification. He/she is familiar with all common tool and transformations with an ETL tool, as well as with common built-in methods. He/she has basic SQL knowledge, can handle errors, logging, and parallel execution.",
         },
         children: [
           {
@@ -42,7 +42,7 @@ export const dataEngineer = [
             title: "ETL Advanced",
             tooltip: {
               content:
-                "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+                "An ETL advanced can design medium complexity dataflows or high complexity ones based on a specification. He/she is familiar with 2+ ETL tools and can work around platform specific issues and limitation. He/she can optimize query pushdowns has at least intermediate SQL and scripting skills. He/she can handle SOAP/API calls, ETL frameworks and advanced errors.",
             },
             children: [
               {
@@ -51,7 +51,7 @@ export const dataEngineer = [
                 title: "ETL Expert",
                 tooltip: {
                   content:
-                    "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+                    "An ETL expert can design and develop high complexity data flows, as well as make architecture choices based on anticipated workload. He/she has advanced SQL and expert scripting language knowledge, while also designing ETL frameworks and custom components.",
                 },
                 children: [
                   {
@@ -60,7 +60,7 @@ export const dataEngineer = [
                     title: "ETL Grandmaster",
                     tooltip: {
                       content:
-                        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -78,7 +78,7 @@ export const dataEngineer = [
     title: "SQL Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A SQL novice knows the basic query structure, aggregates, aliases, and operators. Additionally, she/he can use the DISTINCT, INNER JOIN, LIMIT/TOP and ORDER BY keywords.",
     },
     children: [
       {
@@ -87,7 +87,7 @@ export const dataEngineer = [
         title: "SQL Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A SQL intermediate can perform subqueries, basic pattern matching, built-in functions, basic query optimizations, B-tree indexes, foreign keys, views, cursors, delete vs. truncate and constraints. She/he can use the CAST, COALESCE, NULL, OUTER JOIN, HAVING and UNION (ALL) keywords. Finally, she/he has 2+ years of experience with RDBMS, can find duplicate records by key, handle transactions, temporary tables and writes testable code.",
         },
         children: [
           {
@@ -96,7 +96,7 @@ export const dataEngineer = [
             title: "SQL Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A SQL advanced knows her/his way around CTEs, advanced query optimizations, compound indexes, partitioning, regular expressions, unique vs foreign key, clustering, sequence, stored procedures, UDFs and the MINUS, INTERSECT keywords. She/he has at least 3 years of experience with RDBMS, intermediate meta-programming skills, and can also use locks, advanced transaction handling, isolation level and triggers.",
             },
             children: [
               {
@@ -105,7 +105,7 @@ export const dataEngineer = [
                 title: "SQL Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A SQL expert can write recursive CTEs, triggers and can make design choices based on anticipated workload. She/he also has at least 4 years of experience with RDBMS, and some experience with MPP or in-memory RDBMS, while also having advanced meta-programming skills.",
                 },
                 children: [
                   {
@@ -114,7 +114,7 @@ export const dataEngineer = [
                     title: "SQL Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -132,7 +132,7 @@ export const dataEngineer = [
     title: "Cloud Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A cloud novice has at least few months of general experience with a cloud provider (AWS, Azure, Google). He/she understands basic architectural principles, the value proposition of the provider, the use-cases of key services, as well as basic security, compliance, deployment, and operating principles.",
     },
     children: [
       {
@@ -141,7 +141,7 @@ export const dataEngineer = [
         title: "Cloud Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A cloud intermediate has at least a year of general experience with a cloud provider (AWS, Azure, Google). He/she understands the providers basic architecture and core services. He/she has hands-on experience in designing, developing, deploying, and maintaining applications, with working knowledge applications that uses notification, workflow, storage, and change managements services.",
         },
         children: [
           {
@@ -150,7 +150,7 @@ export const dataEngineer = [
             title: "Cloud Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A cloud advanced has at least a few years of experience with a cloud provider (AWS, Azure, Google). He/she understands the providers basic architecture and core services. He/she has hands-on experience from multiple projects in designing, developing, deploying, and maintaining applications, with working knowledge applications that uses notification, workflow, storage, and change managements services.",
             },
             children: [
               {
@@ -159,7 +159,7 @@ export const dataEngineer = [
                 title: "Cloud Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A cloud expert has multiple years of experience with a cloud provider (AWS, Azure, Google). He/she is someone who can evaluate an organization’s requirements and make architectural recommendations for implementing and deploying applications with the given provider. Additionally, he/she has basic knowledge of multiple providers and their strengths and weaknesses.",
                 },
                 children: [
                   {
@@ -168,7 +168,7 @@ export const dataEngineer = [
                     title: "Cloud Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -186,7 +186,7 @@ export const dataEngineer = [
     title: "Programming Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A (Python) programming novice can define variables and basic data structures. He=she can use conditions, control flows, loop, iterables, functions, built-in methods and can take input from a user or through a file.",
     },
     children: [
       {
@@ -195,7 +195,7 @@ export const dataEngineer = [
         title: "Programming Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A (Python) programming intermediate understands object-oriented programming, mutability, comprehensions, lambda functions, functional programming paradigms, inheritance, modules, async IO, threading, multiprocessing, algorithms, data structures, environments, and regex.",
         },
         children: [
           {
@@ -204,7 +204,7 @@ export const dataEngineer = [
             title: "Programming Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A (Python) advanced knows most of the following: args and **kwards, generators, decorators, concurrency, parallelism, meta classes, the re package, testing, and Cython.",
             },
             children: [
               {
@@ -213,7 +213,7 @@ export const dataEngineer = [
                 title: "Programming Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A (Python) programming expert has many years of experience with the above-mentioned features and demonstrated excellence in applying them through multiple projects, while also considered the go to person in this area.",
                 },
                 children: [
                   {
@@ -222,7 +222,7 @@ export const dataEngineer = [
                     title: "Programming Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -243,7 +243,7 @@ export const dataScientist = [
     title: "Data Viz Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A visualization novice can choose from common chart types, create interactions between them, while following a coherent visual style. She/he can participate in reporting discussions and understands the role of data visualization in a reporting workflow. She/he is aware of the fundamentals of a chosen viz/BI tool and can make small changes to dashboards created by others.",
     },
     children: [
       {
@@ -252,7 +252,7 @@ export const dataScientist = [
         title: "Data Viz Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A visualization intermediate can recommend the most appropriate chart types based on needs and can use preattentive attributes, while also enhancing legibility of existing visualizations and spotting violation of best practices. She/he understands the reporting process and can verbalize process issues. She/he has a comprehensive understanding of at least one viz/BI tool, can translate wireframes and mockups into maintainable dashboards, can use advanced calculations and follows a consistent naming convention.",
         },
         children: [
           {
@@ -261,7 +261,7 @@ export const dataScientist = [
             title: "Data Viz Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A visualization advanced uses color, typography and text that catches the eye with clean design and message. She/he can lead business discussions about visualization wireframes and best practices, while following the lates visualization trends and providing feedback to others. She/he understands the end-to-end reporting process and can document the reporting architecture. She/he has advanced knowledge in at least one viz/BI tool, with knowledge of supporting techniques, optimization, while also having time to hold basic training to others.",
             },
             children: [
               {
@@ -270,7 +270,7 @@ export const dataScientist = [
                 title: "Data Viz Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A visualization expert is proficient in the lates data visualization trends, coaches others for a longer period and maintains guidelines and best practices for the community. She/he designs BI reporting process and makes architectural choices. She/he is up to date in the current BI trends, maintains training materials and holds interactive trainings on advanced topics.",
                 },
                 children: [
                   {
@@ -279,7 +279,7 @@ export const dataScientist = [
                     title: "Data Viz Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -297,7 +297,7 @@ export const dataScientist = [
     title: "Statistics Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A statistics novice understands basic statistical concepts.",
     },
     children: [
       {
@@ -306,7 +306,7 @@ export const dataScientist = [
         title: "Statistics Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A statistics intermediate understands basic sampling, probability theory, distributions, and descriptive statistical concepts. She/he can choose from multiple machine learning techniques to apply.",
         },
         children: [
           {
@@ -315,7 +315,7 @@ export const dataScientist = [
             title: "Statistics Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A statistics advanced understands complex statistical concepts like Bayesian inference, and Markov chains. She/he has basic knowledge of virtually all models and is confident with the most used ones. She/he has expertise in a certain subfield of statistics like NLP, neural vision etc.",
             },
             children: [
               {
@@ -324,7 +324,7 @@ export const dataScientist = [
                 title: "Statistics Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A (Python) programming expert has many years of experience with the above-mentioned features and demonstrated excellence in applying them through multiple projects, while also considered the go to person in this area.",
                 },
                 children: [
                   {
@@ -333,7 +333,7 @@ export const dataScientist = [
                     title: "Statistics Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -351,7 +351,7 @@ export const dataScientist = [
     title: "Programming Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A (Python) programming novice can define variables and basic data structures. He=she can use conditions, control flows, loop, iterables, functions, built-in methods and can take input from a user or through a file.",
     },
     children: [
       {
@@ -360,7 +360,7 @@ export const dataScientist = [
         title: "Programming Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A (Python) programming intermediate understands object-oriented programming, mutability, comprehensions, lambda functions, functional programming paradigms, inheritance, modules, async IO, threading, multiprocessing, algorithms, data structures, environments, and regex.",
         },
         children: [
           {
@@ -369,7 +369,7 @@ export const dataScientist = [
             title: "Programming Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A (Python) advanced knows most of the following: args and **kwards, generators, decorators, concurrency, parallelism, meta classes, the re package, testing, and Cython.",
             },
             children: [
               {
@@ -378,7 +378,7 @@ export const dataScientist = [
                 title: "Programming Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A (Python) programming expert has many years of experience with the above-mentioned features and demonstrated excellence in applying them through multiple projects, while also considered the go to person in this area.",
                 },
                 children: [
                   {
@@ -387,7 +387,7 @@ export const dataScientist = [
                     title: "Programming Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -405,7 +405,7 @@ export const dataScientist = [
     title: "Data Preparation Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "Every Junior employee should understand essential data structures and components. This person is able to clean and transform data at least with manual transformation (by using spreadsheets, or other tools) and understands the usage of simple joins and unions. A novice team member should be able to identify and summary simple issues and limitation of the current data structure to business users or data engineers. Basic SQL or ETL tool knowledge is advantage but not essential.",
     },
     children: [
       {
@@ -414,7 +414,7 @@ export const dataScientist = [
         title: "Data Preparation Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "Someone with intermediate data preparation knowledge should be comfortable in the most common data related terminology and jargons. This person is able to model and define the required output data structure based on the input data and business logic. This person has confident knowledge of the data processing capabilities and limitation of the used data visualization tool (like Tableau) and able to create simple data processes by using one of the market used data preparation tool.",
         },
         children: [
           {
@@ -423,7 +423,7 @@ export const dataScientist = [
             title: "Data Preparation Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "This person is not just comfortable in the most common data related jargons and technics but able to use them. An advanced team member can create complex flows if the issue is defined and able to solve common data quality and performance issues. An advanced data prep member should be able to document complex data process if it is required.",
             },
             children: [
               {
@@ -432,7 +432,7 @@ export const dataScientist = [
                 title: "Data Preparation Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "The expert is “one step ahead” in data related topic. This person can advise technology in for particular projects, and able to identify issues and limitations in advance. An expert should be able to define data processing framework, rules, and standards for the project. This person applies the relevant technology quality standards (code quality) and creates compact and easy to read and easy to maintain jobs (“clean code”). An expert should be able to support anyone else in the project and should be good in solving complex data anomalies and performance issues.",
                 },
                 children: [
                   {
@@ -441,7 +441,7 @@ export const dataScientist = [
                     title: "Data Preparation Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -462,7 +462,7 @@ export const dataViz = [
     title: "ETL Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "An ETL novice has a basic understanding of data, data handling, relational datasets, as well as possesses basic programming skills and has experience with an ETL tool or PL/SQL",
     },
     children: [
       {
@@ -471,7 +471,7 @@ export const dataViz = [
         title: "ETL Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "An ETL intermediate can design low complexity data flows or medium complexity ones based on a specification. He/she is familiar with all common tool and transformations with an ETL tool, as well as with common built-in methods. He/she has basic SQL knowledge, can handle errors, logging, and parallel execution.",
         },
         children: [
           {
@@ -480,7 +480,7 @@ export const dataViz = [
             title: "ETL Advanced",
             tooltip: {
               content:
-                "A SQL intermediate can perform subqueries, basic pattern matching, built-in functions, basic query optimizations, B-tree indexes, foreign eys, views, cursors, delete vs. truncate and constraints. She/he can use the cast, coalesce, null, outer join, hacing amd union (all) keywords. Finally she/he has 2+ years of experience with RDBMS, can find duplicate records by key, handle transactions, temporary tables and writes testable code.",
+                "An ETL advanced can design medium complexity dataflows or high complexity ones based on a specification. He/she is familiar with 2+ ETL tools and can work around platform specific issues and limitation. He/she can optimize query pushdowns has at least intermediate SQL and scripting skills. He/she can handle SOAP/API calls, ETL frameworks and advanced errors.",
             },
             children: [
               {
@@ -489,7 +489,7 @@ export const dataViz = [
                 title: "ETL Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "An ETL expert can design and develop high complexity data flows, as well as make architecture choices based on anticipated workload. He/she has advanced SQL and expert scripting language knowledge, while also designing ETL frameworks and custom components.",
                 },
                 children: [
                   {
@@ -498,7 +498,7 @@ export const dataViz = [
                     title: "ETL Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -516,7 +516,7 @@ export const dataViz = [
     title: "Data Preparation Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "Every Junior employee should understand essential data structures and components. This person is able to clean and transform data at least with manual transformation (by using spreadsheets, or other tools) and understands the usage of simple joins and unions. A novice team member should be able to identify and summary simple issues and limitation of the current data structure to business users or data engineers. Basic SQL or ETL tool knowledge is advantage but not essential.",
     },
     children: [
       {
@@ -525,7 +525,7 @@ export const dataViz = [
         title: "Data Preparation Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "Someone with intermediate data preparation knowledge should be comfortable in the most common data related terminology and jargons. This person is able to model and define the required output data structure based on the input data and business logic. This person has confident knowledge of the data processing capabilities and limitation of the used data visualization tool (like Tableau) and able to create simple data processes by using one of the market used data preparation tool.",
         },
         children: [
           {
@@ -534,7 +534,7 @@ export const dataViz = [
             title: "Data Preparation Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "This person is not just comfortable in the most common data related jargons and technics but able to use them. An advanced team member can create complex flows if the issue is defined and able to solve common data quality and performance issues. An advanced data prep member should be able to document complex data process if it is required.",
             },
             children: [
               {
@@ -543,7 +543,7 @@ export const dataViz = [
                 title: "Data Preparation Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "The expert is “one step ahead” in data related topic. This person can advise technology in for particular projects, and able to identify issues and limitations in advance. An expert should be able to define data processing framework, rules, and standards for the project. This person applies the relevant technology quality standards (code quality) and creates compact and easy to read and easy to maintain jobs (“clean code”). An expert should be able to support anyone else in the project and should be good in solving complex data anomalies and performance issues.",
                 },
                 children: [
                   {
@@ -552,7 +552,7 @@ export const dataViz = [
                     title: "Data Preparation Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -565,48 +565,48 @@ export const dataViz = [
     ],
   },
   {
-    id: "stat",
-    icon: statIcon,
-    title: "Statistics Novice",
+    id: "viz",
+    icon: vizIcon,
+    title: "Data Viz Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A visualization novice can choose from common chart types, create interactions between them, while following a coherent visual style. She/he can participate in reporting discussions and understands the role of data visualization in a reporting workflow. She/he is aware of the fundamentals of a chosen viz/BI tool and can make small changes to dashboards created by others.",
     },
     children: [
       {
-        id: "stat1",
-        icon: statIcon,
-        title: "Statistics Intermediate",
+        id: "viz2",
+        icon: vizIcon,
+        title: "Data Viz Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A visualization intermediate can recommend the most appropriate chart types based on needs and can use preattentive attributes, while also enhancing legibility of existing visualizations and spotting violation of best practices. She/he understands the reporting process and can verbalize process issues. She/he has a comprehensive understanding of at least one viz/BI tool, can translate wireframes and mockups into maintainable dashboards, can use advanced calculations and follows a consistent naming convention.",
         },
         children: [
           {
-            id: "stat2",
-            icon: statIcon,
-            title: "Statistics Advanced",
+            id: "viz3",
+            icon: vizIcon,
+            title: "Data Viz Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A visualization advanced uses color, typography and text that catches the eye with clean design and message. She/he can lead business discussions about visualization wireframes and best practices, while following the lates visualization trends and providing feedback to others. She/he understands the end-to-end reporting process and can document the reporting architecture. She/he has advanced knowledge in at least one viz/BI tool, with knowledge of supporting techniques, optimization, while also having time to hold basic training to others.",
             },
             children: [
               {
-                id: "stat3",
-                icon: statIcon,
-                title: "Statistics Expert",
+                id: "viz4",
+                icon: vizIcon,
+                title: "Data Viz Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A visualization expert is proficient in the lates data visualization trends, coaches others for a longer period and maintains guidelines and best practices for the community. She/he designs BI reporting process and makes architectural choices. She/he is up to date in the current BI trends, maintains training materials and holds interactive trainings on advanced topics.",
                 },
                 children: [
                   {
-                    id: "stat4",
-                    icon: statIcon,
-                    title: "Statistics Grandmaster",
+                    id: "viz5",
+                    icon: vizIcon,
+                    title: "Data Viz Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -619,12 +619,12 @@ export const dataViz = [
     ],
   },
   {
-    id: "pro",
+    id: "ui",
     icon: uiIcon,
     title: "UI Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A UI novice learn the core practices of UI design wireframes, prototypes, and surveys. She/he knows basic workflows and can assist with design operations of the team.",
     },
     children: [
       {
@@ -633,7 +633,7 @@ export const dataViz = [
         title: "UI Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A UI intermediate is fluent in the UI processes and design defensible with user research and other tools.",
         },
         children: [
           {
@@ -642,7 +642,7 @@ export const dataViz = [
             title: "UI Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A UI advanced has mastery of UI processes and toolkits, can design holistic experiences with big picture strategy and uses frameworks and hypothesis-based approach.",
             },
             children: [
               {
@@ -651,7 +651,7 @@ export const dataViz = [
                 title: "UI Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A UI expert knows everything that and advanced level knows but can also lead client engagements and hold trainings on advanced level topics.",
                 },
                 children: [
                   {
@@ -660,7 +660,7 @@ export const dataViz = [
                     title: "UI Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -681,7 +681,7 @@ export const dataBIDev = [
     title: "ETL Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "An ETL novice has a basic understanding of data, data handling, relational datasets, as well as possesses basic programming skills and has experience with an ETL tool or PL/SQL",
     },
     children: [
       {
@@ -690,7 +690,7 @@ export const dataBIDev = [
         title: "ETL Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "An ETL intermediate can design low complexity data flows or medium complexity ones based on a specification. He/she is familiar with all common tool and transformations with an ETL tool, as well as with common built-in methods. He/she has basic SQL knowledge, can handle errors, logging, and parallel execution.",
         },
         children: [
           {
@@ -699,7 +699,7 @@ export const dataBIDev = [
             title: "ETL Advanced",
             tooltip: {
               content:
-                "A SQL intermediate can perform subqueries, basic pattern matching, built-in functions, basic query optimizations, B-tree indexes, foreign eys, views, cursors, delete vs. truncate and constraints. She/he can use the cast, coalesce, null, outer join, hacing amd union (all) keywords. Finally she/he has 2+ years of experience with RDBMS, can find duplicate records by key, handle transactions, temporary tables and writes testable code.",
+                "An ETL advanced can design medium complexity dataflows or high complexity ones based on a specification. He/she is familiar with 2+ ETL tools and can work around platform specific issues and limitation. He/she can optimize query pushdowns has at least intermediate SQL and scripting skills. He/she can handle SOAP/API calls, ETL frameworks and advanced errors.",
             },
             children: [
               {
@@ -708,7 +708,7 @@ export const dataBIDev = [
                 title: "ETL Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "An ETL expert can design and develop high complexity data flows, as well as make architecture choices based on anticipated workload. He/she has advanced SQL and expert scripting language knowledge, while also designing ETL frameworks and custom components.",
                 },
                 children: [
                   {
@@ -717,7 +717,7 @@ export const dataBIDev = [
                     title: "ETL Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -735,7 +735,7 @@ export const dataBIDev = [
     title: "DWH Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A DWH novice knows at least one database engine, programming language and DWH concept.",
     },
     children: [
       {
@@ -744,7 +744,7 @@ export const dataBIDev = [
         title: "DWH Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A DWH intermediate knows at least two database engine, programming language and DWH concept. She/he also has at least 6 individual skills on her/his overall level, or more individual skills below her/his level.",
         },
         children: [
           {
@@ -753,7 +753,7 @@ export const dataBIDev = [
             title: "DWH Advanced",
             tooltip: {
               content:
-                "DWH is a standard language for storing, manipulating and retrieving data in databases.",
+                "A DWH intermediate knows at least four database engine, programming language and DWH concept. She/he also has at least 9 individual skills on her/his overall level, or more individual skills below her/his level.",
             },
             children: [
               {
@@ -762,7 +762,7 @@ export const dataBIDev = [
                 title: "DWH Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A DWH expert knows at least five database engine, programming language and DWH concept. She/he also has at least 12 individual skills on her/his overall level, or more individual skills below her/his level.",
                 },
                 children: [
                   {
@@ -771,7 +771,7 @@ export const dataBIDev = [
                     title: "DWH Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -789,7 +789,7 @@ export const dataBIDev = [
     title: "Cloud Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A cloud novice has at least few months of general experience with a cloud provider (AWS, Azure, Google). He/she understands basic architectural principles, the value proposition of the provider, the use-cases of key services, as well as basic security, compliance, deployment, and operating principles.",
     },
     children: [
       {
@@ -798,7 +798,7 @@ export const dataBIDev = [
         title: "Cloud Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A cloud intermediate has at least a year of general experience with a cloud provider (AWS, Azure, Google). He/she understands the providers basic architecture and core services. He/she has hands-on experience in designing, developing, deploying, and maintaining applications, with working knowledge applications that uses notification, workflow, storage, and change managements services.",
         },
         children: [
           {
@@ -807,7 +807,7 @@ export const dataBIDev = [
             title: "Cloud Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A cloud advanced has at least a few years of experience with a cloud provider (AWS, Azure, Google). He/she understands the providers basic architecture and core services. He/she has hands-on experience from multiple projects in designing, developing, deploying, and maintaining applications, with working knowledge applications that uses notification, workflow, storage, and change managements services.",
             },
             children: [
               {
@@ -816,7 +816,7 @@ export const dataBIDev = [
                 title: "Cloud Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A cloud expert has multiple years of experience with a cloud provider (AWS, Azure, Google). He/she is someone who can evaluate an organization’s requirements and make architectural recommendations for implementing and deploying applications with the given provider. Additionally, he/she has basic knowledge of multiple providers and their strengths and weaknesses.",
                 },
                 children: [
                   {
@@ -825,7 +825,7 @@ export const dataBIDev = [
                     title: "Cloud Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
@@ -843,7 +843,7 @@ export const dataBIDev = [
     title: "SQL Novice",
     tooltip: {
       content:
-        "ETL, which stands for extract, transform, and load, is the process data engineers use to extract data from different sources, transform the data into a  usable and trusted resource, and load that data into the systems end-users can access and use downstream to solve business problems.",
+        "A SQL novice knows the basic query structure, aggregates, aliases, and operators. Additionally, she/he can use the DISTINCT, INNER JOIN, LIMIT/TOP and ORDER BY keywords.",
     },
     children: [
       {
@@ -852,7 +852,7 @@ export const dataBIDev = [
         title: "SQL Intermediate",
         tooltip: {
           content:
-            "A data warehouse is a large collection of business data used to help an organization make decisions.",
+            "A SQL intermediate can perform subqueries, basic pattern matching, built-in functions, basic query optimizations, B-tree indexes, foreign keys, views, cursors, delete vs. truncate and constraints. She/he can use the CAST, COALESCE, NULL, OUTER JOIN, HAVING and UNION (ALL) keywords. Finally, she/he has 2+ years of experience with RDBMS, can find duplicate records by key, handle transactions, temporary tables and writes testable code.",
         },
         children: [
           {
@@ -861,7 +861,7 @@ export const dataBIDev = [
             title: "SQL Advanced",
             tooltip: {
               content:
-                "SQL is a standard language for storing, manipulating and retrieving data in databases.",
+                "A SQL advanced knows her/his way around CTEs, advanced query optimizations, compound indexes, partitioning, regular expressions, unique vs foreign key, clustering, sequence, stored procedures, UDFs and the MINUS, INTERSECT keywords. She/he has at least 3 years of experience with RDBMS, intermediate meta-programming skills, and can also use locks, advanced transaction handling, isolation level and triggers.",
             },
             children: [
               {
@@ -870,7 +870,7 @@ export const dataBIDev = [
                 title: "SQL Expert",
                 tooltip: {
                   content:
-                    "Data preparation is the process of cleaning and transforming raw data prior to processing and analysis.",
+                    "A SQL expert can write recursive CTEs, triggers and can make design choices based on anticipated workload. She/he also has at least 4 years of experience with RDBMS, and some experience with MPP or in-memory RDBMS, while also having advanced meta-programming skills.",
                 },
                 children: [
                   {
@@ -879,7 +879,7 @@ export const dataBIDev = [
                     title: "SQL Grandmaster",
                     tooltip: {
                       content:
-                        "Data replication is the process by which data residing on a physical/virtual server(s) or cloud instance (primary instance) is continuously replicated or copied to a secondary server(s) or cloud instance.",
+                        "Too good",
                     },
                     children: [],
                   },
